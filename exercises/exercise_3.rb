@@ -7,7 +7,7 @@ puts "----------"
 
 # Your code goes here ...
 
-@store2 = Store.find_by(id: '3')
-@store2.destroy
+@store3 = Store.find_by(id: '3')
+@store3.destroy
 
 puts Store.count
